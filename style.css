@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto Mono", monospace;
+    color: #FFF;
+    background-color: #a1b3a2;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.relogio {
+    border: 1.0rem solid white;
+    background-color: #2a3e3f;
+    border-radius: 1.0rem;
+    width: 30.0rem;
+    height: 20.0rem;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    font-size: 5.0rem;
+    font-weight: 900;
+}
+
+footer {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    background-color: #2a3e3fbb;
+}
